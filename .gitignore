@@ -1,0 +1,36 @@
+# Data files
+data/raw/
+data/processed/
+*.pkl
+*.csv
+*.gz
+*.pt
+*.txt.gz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (keep structure but not files)
+logs/*.log
+
+# Models (keep structure)
+models/*.pt
+gnn_optimized/models/*.pt
+gnn_optimized/data/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
